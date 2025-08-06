@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <meta name="google-site-verification" content="ife0BF6_2bhqfgPlLWIH3F17qiCHmCISgIZNMrb8hj4" />
     <title>Lost.fm</title>
   </head>
   <body>
     <input type="text" id="search">
     <button id="search-btn" onclick="searchResults()"> Search</button>
+    <span>This is a fork of<a class="a2" href="https://amythiz.github.io/Lost.fm/">Lost.FM</a>by amythiz</span>
     <hr/>
     <button class="options" id="numbers" style="border: 2px solid; border-color: red;" onclick="redGreen(this)">Show numbering</button>
     <button class="options" id="listeners" style="border: 2px solid; border-color: red;" onclick="redGreen(this)">Show listeners</button>
@@ -167,6 +167,10 @@
         color: white;
         margin: 10px;
         text-decoration: none;
+      }
+
+      .a2 {
+        color: red;
       }
 
       #api {
